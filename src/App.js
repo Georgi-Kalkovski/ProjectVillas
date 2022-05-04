@@ -39,7 +39,7 @@ const App = () => {
             <div className="back-to-top"></div>
             <nav className="navbar navbar-expand-lg navbar-light bg-white sticky" data-offset="500">
                 <div className="container">
-                    <a href="/" className="navbar-brand">Villa<span className="text-primary">"Niki"</span></a>
+                    <Link to="/" className="navbar-brand">Villa<span className="text-primary">"Niki"</span></Link>
 
                     <button className="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -48,22 +48,22 @@ const App = () => {
                     <div className="navbar-collapse collapse" id="navbarContent">
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item active">
-                                <a className="nav-link" href="/">Начало</a>
+                                <Link className="nav-link" to="/">Начало</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/location">Местоположение</a>
+                                <Link className="nav-link" to="/location">Местоположение</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/gallery">Галерия</a>
+                                <Link className="nav-link" to="/gallery">Галерия</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/prices">Цени</a>
+                                <Link className="nav-link" to="/prices">Цени</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/booking">Резервации</a>
+                                <Link className="nav-link" to="/booking">Резервации</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/contacts">Контакти</a>
+                                <Link className="nav-link" to="/contacts">Контакти</Link>
                             </li>
                             {/*<li className="nav-item">
                                 <a className="btn btn-primary ml-lg-2" href="#">Free Analytics</a>
