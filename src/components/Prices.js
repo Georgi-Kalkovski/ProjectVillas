@@ -13,7 +13,7 @@ export default function Prices() {
                             <div className="header">
                                 <div className="pricing-type">Basic</div>
                                 <div className="price">
-                                    <span className="dollar">$</span>
+                                    <span className="dollar">лв.</span>
                                     <h1>39<span className="suffix">.99</span></h1>
                                 </div>
                                 <h5>Per Month</h5>
@@ -36,7 +36,7 @@ export default function Prices() {
                             <div className="header">
                                 <div className="pricing-type">Standar</div>
                                 <div className="price">
-                                    <span className="dollar">$</span>
+                                    <span className="dollar">лв.</span>
                                     <h1>59<span className="suffix">.99</span></h1>
                                 </div>
                                 <h5>Per Month</h5>
@@ -59,7 +59,7 @@ export default function Prices() {
                             <div className="header">
                                 <div className="pricing-type">Professional</div>
                                 <div className="price">
-                                    <span className="dollar">$</span>
+                                    <span className="dollar">лв.</span>
                                     <h1>99<span className="suffix">.99</span></h1>
                                 </div>
                                 <h5>Per Month</h5>
