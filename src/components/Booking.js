@@ -1,89 +1,20 @@
 export default function OurServices() {
     return (
-        <div className="page-section bg-light">
-            <div className="container">
-                <div className="text-center wow fadeInUp">
-                    <div className="subhead">Our services</div>
-                    <h2 className="title-section">How SEO Team Can Help</h2>
-                    <div className="divider mx-auto"></div>
-                </div>
+        <div className="page-section">
+            <div className="text-center container wow fadeInUp">
 
-                <div className="row">
-                    <div className="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
-                        <div className="features">
-                            <div className="header mb-3">
-                                <span className="mai-business"></span>
-                            </div>
-                            <h5>OnSite SEO</h5>
-                            <p>We analyse your website's structure, internal architecture & other key</p>
-                        </div>
-                    </div>
-                    <div className="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
-                        <div className="features">
-                            <div className="header mb-3">
-                                <span className="mai-business"></span>
-                            </div>
-                            <h5>OnSite SEO</h5>
-                            <p>We analyse your website's structure, internal architecture & other key</p>
-                        </div>
-                    </div>
-                    <div className="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
-                        <div className="features">
-                            <div className="header mb-3">
-                                <span className="mai-business"></span>
-                            </div>
-                            <h5>OnSite SEO</h5>
-                            <p>We analyse your website's structure, internal architecture & other key</p>
-                        </div>
-                    </div>
-                    <div className="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
-                        <div className="features">
-                            <div className="header mb-3">
-                                <span className="mai-business"></span>
-                            </div>
-                            <h5>OnSite SEO</h5>
-                            <p>We analyse your website's structure, internal architecture & other key</p>
-                        </div>
-                    </div>
-                    <div className="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
-                        <div className="features">
-                            <div className="header mb-3">
-                                <span className="mai-business"></span>
-                            </div>
-                            <h5>OnSite SEO</h5>
-                            <p>We analyse your website's structure, internal architecture & other key</p>
-                        </div>
-                    </div>
-                    <div className="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
-                        <div className="features">
-                            <div className="header mb-3">
-                                <span className="mai-business"></span>
-                            </div>
-                            <h5>OnSite SEO</h5>
-                            <p>We analyse your website's structure, internal architecture & other key</p>
-                        </div>
-                    </div>
-                    <div className="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
-                        <div className="features">
-                            <div className="header mb-3">
-                                <span className="mai-business"></span>
-                            </div>
-                            <h5>OnSite SEO</h5>
-                            <p>We analyse your website's structure, internal architecture & other key</p>
-                        </div>
-                    </div>
-                    <div className="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
-                        <div className="features">
-                            <div className="header mb-3">
-                                <span className="mai-business"></span>
-                            </div>
-                            <h5>OnSite SEO</h5>
-                            <p>We analyse your website's structure, internal architecture & other key</p>
-                        </div>
-                    </div>
-                </div>
+                {/*Google Calendar*/}
+                <iframe
+                    src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=Europe%2FSofia&showTitle=0&showPrint=0&showTabs=0&showCalendars=1&showTz=0&showNav=1&showDate=1&hl=bg&src=dmJ1Y2c0anZmZDU5bDlmdGNmOGJmcDVmNDhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZW4uYnVsZ2FyaWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23D50000&color=%230B8043"
+                    style={{ borderWidth: 0 }}
+                    width="800"
+                    height="600"
+                    frameborder="0"
+                    scrolling="no"
+                >
+                </iframe>
 
-            </div>
-        </div>
+            </div >
+        </div >
     );
 }

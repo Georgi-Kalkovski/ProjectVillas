@@ -39,15 +39,15 @@ const Footer = () => {
                 </nav>
 
                 <div id='copyright' className='grow'>
-                    <a href='https://github.com/Georgi-Kalkovski/MyBookcase'>Made By Georgi Kalkovski</a>
+                    {/*<a href='https://github.com/Georgi-Kalkovski/MyBookcase'>Made By Georgi Kalkovski</a>*/}
                 </div>
-                {
+                {/*
                     isVisible
                     &&
                     <div id='hide'>
                         <a href='#' className='arrowUp grow'><h3>⮝</h3></a>
                     </div>
-                }
+                */}
             </footer>
         </div>
     );
