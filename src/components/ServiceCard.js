@@ -16,6 +16,7 @@ export default function ServiceCard({
             img.style =
                 `width: 80%;
                 max-width: 1100px; 
+                max-height: 80vh;
                 z-index: 100; 
                 position: fixed; 
                 left: 50%; top: 50%; 
