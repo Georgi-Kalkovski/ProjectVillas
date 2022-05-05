@@ -22,7 +22,7 @@ export default function ServiceCard({
                 transform: translate(-50%, -50%); 
                 box-shadow: -1px 1px 20px 20px rgb(0 0 0 / 40%), 
                 12px 12px 20px 0 rgb(0 0 0 / 50%);`;
-            img.className = 'text-center';
+            img.className = 'text-center card-service';
             return;
 
         } else {
