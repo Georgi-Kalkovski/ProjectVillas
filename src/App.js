@@ -15,13 +15,6 @@ function useQuery() {
     return React.useMemo(() => new URLSearchParams(search), [search]);
 }
 
-function removeImage() {
-    if (document.getElementById('Large') != undefined) {
-        const element = document.getElementById('Large');
-        element.remove();
-    }
-}
-
 const App = () => {
     const [showModeratorBoard, setShowModeratorBoard] = useState(false);
     const [showAdminBoard, setShowAdminBoard] = useState(false);
@@ -42,7 +35,7 @@ const App = () => {
     };*/
 
     return (
-        <div  onClick={() => removeImage()}>
+        <div>
             <div className="back-to-top"></div>
             <nav className="navbar navbar-expand-lg navbar-light bg-white sticky" data-offset="500">
                 <div className="container">
