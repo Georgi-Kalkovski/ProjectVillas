@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import FsLightbox from 'fslightbox-react';
+import './Gallery.css';
 
 export default function Gallery() {
 
