@@ -1,61 +1,34 @@
+import './Home.css';
+
 export default function Home() {
-    return (
-        <div className="page-section">
-        <div className="container">
-          <div className="text-center wow fadeInUp">
-            <div className="subhead">Our Blog</div>
-            <h2 className="title-section">Read Latest News</h2>
-            <div className="divider mx-auto"></div>
-          </div>
-    
-          <div className="row mt-5">
-            <div className="col-lg-4 py-3 wow fadeInUp">
-              <div className="card-blog">
-                <div className="header">
-                  <div className="post-thumb">
-                    <img src="../assets/img/blog/blog-1.jpg" alt=""/>
-                  </div>
-                </div>
-                <div className="body">
-                  <h5 className="post-title"><a href="#">Source of Content Inspiration</a></h5>
-                  <div className="post-date">Posted on <a href="#">27 Jan 2020</a></div>
-                </div>
+  return (
+      <div className="page-section" >
+        <div className="container ">
+          {/*Main Page Text*/}
+          <div className="wow fadeInUp">
+            <div className="card-pricing">
+              <div className="text-center wow fadeInUp">
+                <h2 className="title-section">За къщите</h2>
               </div>
-            </div>
-            
-            <div className="col-lg-4 py-3 wow fadeInUp">
-              <div className="card-blog">
-                <div className="header">
-                  <div className="post-thumb">
-                    <img src="../assets/img/blog/blog-2.jpg" alt=""/>
-                  </div>
-                </div>
-                <div className="body">
-                  <h5 className="post-title"><a href="#">Source of Content Inspiration</a></h5>
-                  <div className="post-date">Posted on <a href="#">27 Jan 2020</a></div>
-                </div>
-              </div>
-            </div>
-    
-            <div className="col-lg-4 py-3 wow fadeInUp">
-              <div className="card-blog">
-                <div className="header">
-                  <div className="post-thumb">
-                    <img src="../assets/img/blog/blog-3.jpg" alt=""/>
-                  </div>
-                </div>
-                <div className="body">
-                  <h5 className="post-title"><a href="#">Source of Content Inspiration</a></h5>
-                  <div className="post-date">Posted on <a href="#">27 Jan 2020</a></div>
-                </div>
-              </div>
-            </div>
-    
-            <div className="col-12 mt-4 text-center wow fadeInUp">
-              <a href="blog.html" className="btn btn-primary">View More</a>
+              <br />
+              <h5><p>Къщи за гости Нели са построени в местност Цигов чарк, с прекрасен  изглед към язовир Батак,
+                намират се на няколко стотин метра от брега на язовира и в непосредствена близост до борова гора.
+                Само на 140 км от София и на 66 км от Пловдив.
+                <br />
+                Вилите са на два етажа и са подходящи за настаняване на 6 човека.
+                На разположение на гостите са безплатен WiFi и безплатни паркинг места (до изчерпване на наличностите).
+                На първия етаж са разположени хол с напълно оборудвана кухня
+                (микровълнова фурна, фурна  за готвене с термоплот, съдомиялна машина, хладилник, и необходимата посуда
+                и спалня с две единични легла. На същия етаж има санитарен възел с баня и тоалетна. От хола се излиза на голяма
+                покрита веранда.  Всяка веранда разполага с барбекю на дървени въглища. На втория етаж има две спални
+                (една с две единични легла и една със спалня), баня и тераса с изглед към язовира или към планината.
+                Дворът е просторен, затревен и обезопасен, подходящ за волни детски игри.
+                Отоплението през зимните месеци е с локално парно.
+              </p>
+              </h5>
             </div>
           </div>
         </div>
       </div>
-    );
+  );
 }

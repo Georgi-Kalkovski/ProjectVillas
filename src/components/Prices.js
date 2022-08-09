@@ -2,79 +2,86 @@ export default function Prices() {
     return (
         <div className="page-section">
             <div className="container">
-                <div className="text-center wow fadeInUp">
-                    <div className="subhead">Pricing Plan</div>
-                    <h2 className="title-section">Choose plan the right for you</h2>
-                    <div className="divider mx-auto"></div>
+                <div className="text-center wow fadeInUp" >
+                    {/*<div className="subhead">Pricing Plan</div>*/}
+                    <h2 className="card-pricing" style={{ maxWidth: "150px", padding: "10px 10px" }}>Цени</h2>
+                    {/*<div className="divider mx-auto"></div>*/}
                 </div>
-                <div className="row mt-5">
-                    <div className="col-lg-4 py-3 wow zoomIn">
+                <div className="row mt-3" style={{ justifyContent: "center" }}>
+
+                    {/*One Night*/}
+                    <div className="col-lg-4 py-4 wow fadeInUp">
                         <div className="card-pricing">
                             <div className="header">
-                                <div className="pricing-type">Basic</div>
+                                <h5>За една нощувка</h5>
                                 <div className="price">
-                                    <span className="dollar">лв.</span>
-                                    <h1>39<span className="suffix">.99</span></h1>
+                                    <h1>250 лв.</h1>
+                                    <br />
+                                    <br />
+                                    <br />
                                 </div>
-                                <h5>Per Month</h5>
-                            </div>
-                            <div className="body">
-                                <p>25 Analytics <span className="suffix">Campaign</span></p>
-                                <p>1,300 Change <span className="suffix">Keywords</span></p>
-                                <p>Social Media <span className="suffix">Reviews</span></p>
-                                <p>1 Free <span className="suffix">Optimization</span></p>
-                                <p>24/7 <span className="suffix">Support</span></p>
-                            </div>
-                            <div className="footer">
-                                <a href="#" className="btn btn-pricing btn-block">Subscribe</a>
                             </div>
                         </div>
                     </div>
 
-                    <div className="col-lg-4 py-3 wow zoomIn">
-                        <div className="card-pricing marked">
+                    {/*Two Nights*/}
+                    <div className="col-lg-4 py-4 wow fadeInUp">
+                        <div className="card-pricing">
                             <div className="header">
-                                <div className="pricing-type">Standar</div>
+                                <h5>За две нощувки</h5>
                                 <div className="price">
-                                    <span className="dollar">лв.</span>
-                                    <h1>59<span className="suffix">.99</span></h1>
+                                    <h1>200 лв.</h1>
+                                    <div className="pricing-type"><h4>на вечер</h4></div>
                                 </div>
-                                <h5>Per Month</h5>
-                            </div>
-                            <div className="body">
-                                <p>25 Analytics <span className="suffix">Campaign</span></p>
-                                <p>1,300 Change <span className="suffix">Keywords</span></p>
-                                <p>Social Media <span className="suffix">Reviews</span></p>
-                                <p>1 Free <span className="suffix">Optimization</span></p>
-                                <p>24/7 <span className="suffix">Support</span></p>
-                            </div>
-                            <div className="footer">
-                                <a href="#" className="btn btn-pricing btn-block">Subscribe</a>
                             </div>
                         </div>
                     </div>
 
-                    <div className="col-lg-4 py-3 wow zoomIn">
+                    {/*Three Nights*/}
+                    <div className="col-lg-4 py-4 wow fadeInUp">
                         <div className="card-pricing">
                             <div className="header">
-                                <div className="pricing-type">Professional</div>
+                                <h5>За три нощувки</h5>
                                 <div className="price">
-                                    <span className="dollar">лв.</span>
-                                    <h1>99<span className="suffix">.99</span></h1>
+                                    <h1>150 лв.</h1>
+                                    <div className="pricing-type"><h4>на вечер</h4></div>
                                 </div>
-                                <h5>Per Month</h5>
-                            </div>
-                            <div className="body">
-                                <p>25 Analytics <span className="suffix">Campaign</span></p>
-                                <p>1,300 Change <span className="suffix">Keywords</span></p>
-                                <p>Social Media <span className="suffix">Reviews</span></p>
-                                <p>1 Free <span className="suffix">Optimization</span></p>
-                                <p>24/7 <span className="suffix">Support</span></p>
-                            </div>
-                            <div className="footer">
-                                <a href="#" className="btn btn-pricing btn-block">Subscribe</a>
                             </div>
                         </div>
+                    </div>
+
+                    {/*Four+ Nights*/}
+                    <div className="col-lg- py-4 wow fadeInUp">
+                        <div className="card-pricing">
+                            <div className="header">
+                                <h5>За 4 и повече нощувки</h5>
+                                <div className="price">
+                                    <div className="pricing-type"><h4>по договаряне</h4></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/*More Info Text*/}
+                    <div className="card-pricing wow fadeInUp">
+                        <br />
+                        <h5 >
+                            <p>
+                                Къщите се дават цели, не се предлагат отделни стаи.
+                                <br />
+                                <br />
+                                Напускането става до 12,00 часа. Настаняването е след 14,00 часа.
+                                <br />
+                                <br />
+                                Цени за специални периоди, като Нова година, Великден и други празници се различават от горепосочените.
+                                <br />
+                                <br />
+                                Цените са в български лева и с добавено ДДС.
+                                <br />
+                                <br />
+                                Къщите не са подходящи за шумни компании.
+                            </p>
+                        </h5>
                     </div>
 
                 </div>

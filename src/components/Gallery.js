@@ -28,7 +28,7 @@ export default function Gallery() {
                     {/*Filling Gallery With Images*/}
                     {images.map((imageName, index) => (
                         <div id={imageName.default} className="col-lg-4" onClick={() => openLightboxOnSourceIndex(index)}>
-                            <div className="card-service wow fadeInUp">
+                            <div className="card-service wow zoomIn">
                                 <div className="header">
                                     <img src={imageName.default} className="img-fluid" alt="" />
                                 </div>

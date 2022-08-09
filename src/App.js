@@ -8,6 +8,8 @@ import Gallery from './components/Gallery';
 import Prices from './components/Prices';
 import Booking from './components/Booking';
 import Contacts from './components/Contacts';
+import Background from './components/gallery/4.jpg';
+import './App.css';
 
 function useQuery() {
     const { search } = useLocation();
@@ -36,10 +38,11 @@ const App = () => {
 
     return (
         <div>
+        <div className='main-background-image' style={{ backgroundImage: `url(${Background})` }}></div>
             <div className="back-to-top"></div>
             <nav className="navbar navbar-expand-lg navbar-light bg-white sticky" data-offset="500">
                 <div className="container">
-                    <Link to="/" className="navbar-brand">Villa<span className="text-primary">"Niki"</span></Link>
+                    <Link to="/" className="navbar-brand">Вила <span className="text-primary">"Нели"</span></Link>
 
                     <button className="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -73,21 +76,23 @@ const App = () => {
 
                 </div>
             </nav>
+            <div>
+                <div className='container mt-3'>
+                    <Routes>
+                        {/*<Route path='*' element={<ErrorPage />} />*/}
+                        <Route exact path='/' element={<Home />} />
+                        <Route exact path='/location' element={<Location />} />
+                        <Route exact path='/gallery' element={<Gallery />} />
+                        <Route exact path='/prices' element={<Prices />} />
+                        <Route exact path='/booking' element={<Booking />} />
+                        <Route exact path='/contacts' element={<Contacts />} />
+                    </Routes>
+                </div>
 
-            <div className='container mt-3'>
-                <Routes>
-                    {/*<Route path='*' element={<ErrorPage />} />*/}
-                    <Route exact path='/' element={<Home />} />
-                    <Route exact path='/location' element={<Location />} />
-                    <Route exact path='/gallery' element={<Gallery />} />
-                    <Route exact path='/prices' element={<Prices />} />
-                    <Route exact path='/booking' element={<Booking />} />
-                    <Route exact path='/contacts' element={<Contacts />} />
-                </Routes>
+                <Footer />
             </div>
-
-            <Footer />
         </div>
+
     );
 };
 

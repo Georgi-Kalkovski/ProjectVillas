@@ -1,0 +1,9 @@
+.main-background-image {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  min-height: 100vh;
+  position: fixed;
+  width: 100%;
+  opacity: 0.7;
+}
