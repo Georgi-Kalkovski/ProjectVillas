@@ -8,8 +8,11 @@ import Gallery from './components/Gallery';
 import Prices from './components/Prices';
 import Booking from './components/Booking';
 import Contacts from './components/Contacts';
-import Background from './components/gallery/4.jpg';
+import NavLink from "./nav_link";
 import './App.css';
+
+//Background Image
+import Background from './components/gallery/4.jpg';
 
 function useQuery() {
     const { search } = useLocation();
@@ -18,38 +21,39 @@ function useQuery() {
 }
 
 const App = () => {
-    const [showModeratorBoard, setShowModeratorBoard] = useState(false);
-    const [showAdminBoard, setShowAdminBoard] = useState(false);
-    const [currentUser, setCurrentUser] = useState(undefined);
-    let navigate = useNavigate();
-    let query = useQuery();
-    /*useEffect(() => {
-        const user = AuthService.getCurrentUser();
-        if (user) {
-            setCurrentUser(user);
-            setShowModeratorBoard(user.roles.includes('ROLE_MODERATOR'));
-            setShowAdminBoard(user.roles.includes('ROLE_ADMIN'));
-        }
-    }, []);
 
-    const logOut = () => {
-        AuthService.logout().navigate('/');
-    };*/
+    // Nav Coloring Logic
+    var header = document.getElementById("myUL");
+    var btns = document.getElementsByClassName("nav-item");
+
+    for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function () {
+            var current = document.getElementsByClassName("active");
+            if (current.length > 0) {
+                current[0].className = current[0].className.replace(" active", "");
+            }
+            this.className += " active";
+        });
+    }
 
     return (
         <div>
-        <div className='main-background-image' style={{ backgroundImage: `url(${Background})` }}></div>
+            {/* Background Image */}
+            <div className='main-background-image' style={{ backgroundImage: `url(${Background})` }}></div>
+
+            {/* Back To Top Button */}
             <div className="back-to-top"></div>
+
+            {/* Nav Menu */}
             <nav className="navbar navbar-expand-lg navbar-light bg-white sticky" data-offset="500">
                 <div className="container">
                     <Link to="/" className="navbar-brand">Вила <span className="text-primary">"Нели"</span></Link>
-
                     <button className="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
 
                     <div className="navbar-collapse collapse" id="navbarContent">
-                        <ul className="navbar-nav ml-auto">
+                        <ul className="navbar-nav ml-auto" id="myUL">
                             <li className="nav-item active">
                                 <Link className="nav-link" to="/">Начало</Link>
                             </li>
@@ -76,6 +80,8 @@ const App = () => {
 
                 </div>
             </nav>
+
+            {/* Routes */}
             <div>
                 <div className='container mt-3'>
                     <Routes>
@@ -89,7 +95,9 @@ const App = () => {
                     </Routes>
                 </div>
 
+                {/* Footer */}
                 <Footer />
+
             </div>
         </div>
 

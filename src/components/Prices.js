@@ -1,3 +1,5 @@
+import './Prices.css';
+
 export default function Prices() {
     return (
         <div className="page-section">
@@ -11,7 +13,7 @@ export default function Prices() {
 
                     {/*One Night*/}
                     <div className="col-lg-4 py-4 wow fadeInUp">
-                        <div className="card-pricing">
+                        <div className="card-pricing prices">
                             <div className="header">
                                 <h5>За една нощувка</h5>
                                 <div className="price">
@@ -26,7 +28,7 @@ export default function Prices() {
 
                     {/*Two Nights*/}
                     <div className="col-lg-4 py-4 wow fadeInUp">
-                        <div className="card-pricing">
+                        <div className="card-pricing prices">
                             <div className="header">
                                 <h5>За две нощувки</h5>
                                 <div className="price">
@@ -39,7 +41,7 @@ export default function Prices() {
 
                     {/*Three Nights*/}
                     <div className="col-lg-4 py-4 wow fadeInUp">
-                        <div className="card-pricing">
+                        <div className="card-pricing prices">
                             <div className="header">
                                 <h5>За три нощувки</h5>
                                 <div className="price">
@@ -51,8 +53,8 @@ export default function Prices() {
                     </div>
 
                     {/*Four+ Nights*/}
-                    <div className="col-lg- py-4 wow fadeInUp">
-                        <div className="card-pricing">
+                    <div className="col-lg-4 py-4 wow fadeInUp">
+                        <div className="card-pricing prices">
                             <div className="header">
                                 <h5>За 4 и повече нощувки</h5>
                                 <div className="price">
