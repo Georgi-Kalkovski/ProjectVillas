@@ -47,7 +47,7 @@ const App = () => {
             {/* Nav Menu */}
             <nav className="navbar navbar-expand-lg navbar-light bg-white sticky" data-offset="500">
                 <div className="container">
-                    <Link to="/" className="navbar-brand">Вила <span className="text-primary">"Нели"</span></Link>
+                    <Link to="/" className="navbar-brand">Къщи за гости <span className="text-primary">•Нели•</span></Link>
                     <button className="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>

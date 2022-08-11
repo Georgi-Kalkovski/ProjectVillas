@@ -1,3 +1,9 @@
+@font-face {
+  font-family: NautilusPompilius;
+  src: url("./4471-font.otf") format("opentype");
+}
+
+/* background image */
 .main-background-image {
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -6,4 +12,119 @@
   position: fixed;
   width: 100%;
   opacity: 0.7;
+}
+
+/* calendar shadow */
+.navbar, .card-pricing, .card-service, iframe {
+  box-shadow: 0px 0px 7px 3px #6c757db8;
+}
+
+/* bolded nav */
+.nav-item > a, .navbar-light .navbar-nav .active > .nav-link {
+  font-weight: bold;
+}
+
+/* "•Нели•" font and size */
+.text-primary {
+  font-family: NautilusPompilius;
+  font-size: xx-large;
+  letter-spacing: 5px;
+}
+
+
+
+/* BLACK THEME */
+
+/* NAV BAR */
+
+/*nav bar background*/
+.bg-white {
+  background-color: black !important;
+}
+
+/*nav bar "къща за гости" text*/
+.navbar-brand {
+  color: #F8E73F !important;
+  font-weight: 750;
+}
+
+/*nav bar "•Нели•" text*/
+.text-primary {
+  color: #F8E73F !important;
+}
+
+/*nav bar normal text*/
+.navbar-light .navbar-nav .nav-link {
+  color: silver;
+}
+
+/*nav bar normal hovered text*/
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgb(255, 255, 255);
+}
+
+/*nav bar normal active text*/
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active {
+  color: silver;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: #F8E73F;
+}
+
+.navbar-toggler {
+  background-color: #F8E73F;
+}
+
+
+
+/* PAGE SECTION */
+
+/* titles */
+.title-section {
+  color: #F8E73F !important;
+}
+
+/* boxes */
+.card-pricing {
+  background-color: black;
+  color: white;
+}
+
+/* coordinates */
+.subhead {
+  color: white;
+}
+
+/* gallery */
+.card-service {
+  background-color: black;
+}
+
+/* amount of nights color */
+.amount-of-nights {
+  color: #F8E73F !important;
+}
+
+/* back to top arrow */
+.back-to-top {
+  background-color: black;
+}
+
+.back-to-top::after {
+  border-top: 2px solid #F8E73F;
+  border-right: 2px solid #F8E73F;
+}
+
+.back-to-top:hover {
+  background-color: #F8E73F;
+}
+
+.back-to-top::after {
+  border-top: 2px solid #F8E73F;
+  border-right: 2px solid #F8E73F;
+}
+
+.back-to-top:hover::after {
+  border-top: 2px solid black;
+  border-right: 2px solid black;
 }

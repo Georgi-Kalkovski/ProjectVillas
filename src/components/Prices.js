@@ -6,7 +6,7 @@ export default function Prices() {
             <div className="container">
                 <div className="text-center wow fadeInUp" >
                     {/*<div className="subhead">Pricing Plan</div>*/}
-                    <h2 className="card-pricing" style={{ maxWidth: "150px", padding: "10px 10px" }}>Цени</h2>
+                    <h2 className="card-pricing title-section" style={{ maxWidth: "150px", padding: "10px 10px" }}>Цени</h2>
                     {/*<div className="divider mx-auto"></div>*/}
                 </div>
                 <div className="row mt-3" style={{ justifyContent: "center" }}>
@@ -15,7 +15,7 @@ export default function Prices() {
                     <div className="col-lg-4 py-4 wow fadeInUp">
                         <div className="card-pricing prices">
                             <div className="header">
-                                <h5>За една нощувка</h5>
+                                <h5 className='amount-of-nights'>За една нощувка</h5>
                                 <div className="price">
                                     <h1>250 лв.</h1>
                                     <br />
@@ -30,7 +30,7 @@ export default function Prices() {
                     <div className="col-lg-4 py-4 wow fadeInUp">
                         <div className="card-pricing prices">
                             <div className="header">
-                                <h5>За две нощувки</h5>
+                                <h5 className='amount-of-nights'>За две нощувки</h5>
                                 <div className="price">
                                     <h1>200 лв.</h1>
                                     <div className="pricing-type"><h4>на вечер</h4></div>
@@ -43,7 +43,7 @@ export default function Prices() {
                     <div className="col-lg-4 py-4 wow fadeInUp">
                         <div className="card-pricing prices">
                             <div className="header">
-                                <h5>За три нощувки</h5>
+                                <h5 className='amount-of-nights'>За три нощувки</h5>
                                 <div className="price">
                                     <h1>150 лв.</h1>
                                     <div className="pricing-type"><h4>на вечер</h4></div>
@@ -56,7 +56,7 @@ export default function Prices() {
                     <div className="col-lg-4 py-4 wow fadeInUp">
                         <div className="card-pricing prices">
                             <div className="header">
-                                <h5>За 4 и повече нощувки</h5>
+                                <h5 className='amount-of-nights'>За 4 и повече нощувки</h5>
                                 <div className="price">
                                     <div className="pricing-type"><h4>по договаряне</h4></div>
                                 </div>
