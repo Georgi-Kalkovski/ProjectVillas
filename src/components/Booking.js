@@ -1,4 +1,4 @@
-export default function OurServices() {
+export default function Booking() {
     return (
         <div className="page-section">
             <div className="text-center container wow zoomIn">
