@@ -72,7 +72,9 @@ export default function Prices() {
                                 Къщите се дават цели, не се предлагат отделни стаи.
                                 <br />
                                 <br />
-                                Напускането става до 12,00 часа. Настаняването е след 14,00 часа.
+                                <span className="text-color">Напускането</span> става до <span className="text-color">12,00 часа</span>. 
+                                <br/>
+                                <span className="text-color">Настаняването</span> е след <span className="text-color">14,00 часа</span>.
                                 <br />
                                 <br />
                                 Цени за специални периоди, като Нова година, Великден и други празници се различават от горепосочените.

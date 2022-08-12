@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { Routes, Route, Link, useNavigate, useLocation } from 'react-router-dom';
-import { NavDropdown } from 'react-bootstrap';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import Location from './components/Location';
@@ -8,17 +7,10 @@ import Gallery from './components/Gallery';
 import Prices from './components/Prices';
 import Booking from './components/Booking';
 import Contacts from './components/Contacts';
-import NavLink from "./nav_link";
 import './App.css';
 
 //Background Image
-import Background from './components/gallery/4.jpg';
-
-function useQuery() {
-    const { search } = useLocation();
-
-    return React.useMemo(() => new URLSearchParams(search), [search]);
-}
+import Background from './background.png';
 
 const App = () => {
 

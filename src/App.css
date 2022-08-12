@@ -3,11 +3,18 @@
   src: url("./4471-font.otf") format("opentype");
 }
 
+body {
+    background-repeat: no-repeat;
+}
+html {
+    height: 100%
+}
+
 /* background image */
 .main-background-image {
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 100%;
+  background-size: 100% 100%;
   min-height: 100vh;
   position: fixed;
   width: 100%;
@@ -82,6 +89,11 @@
 /* titles */
 .title-section {
   color: #F8E73F !important;
+}
+
+/* text color */
+.text-color {
+  color: #F8E73F;
 }
 
 /* boxes */
