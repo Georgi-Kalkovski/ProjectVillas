@@ -3,6 +3,10 @@
   src: url("./4471-font.otf") format("opentype");
 }
 
+:root {
+  --bg-content: rgba(0, 0, 0, 0.8);
+}
+
 body {
     background-repeat: no-repeat;
 }
@@ -46,7 +50,7 @@ html {
 
 /*nav bar background*/
 .bg-white {
-  background-color: black !important;
+  background-color: var(--bg-content) !important;
 }
 
 /*nav bar "къща за гости" text*/
@@ -98,7 +102,7 @@ html {
 
 /* boxes */
 .card-pricing {
-  background-color: black;
+  background-color: var(--bg-content);
   color: white;
 }
 
@@ -109,7 +113,7 @@ html {
 
 /* gallery */
 .card-service {
-  background-color: black;
+  background-color: var(--bg-content);
 }
 
 /* amount of nights color */
@@ -139,4 +143,10 @@ html {
 .back-to-top:hover::after {
   border-top: 2px solid black;
   border-right: 2px solid black;
+}
+
+/* Footer */
+.footer {
+  position: relative;
+  padding: 10px 0;
 }

@@ -86,11 +86,10 @@ const App = () => {
                         <Route exact path='/contacts' element={<Contacts />} />
                     </Routes>
                 </div>
-
-                {/* Footer */}
-                <Footer />
-
             </div>
+
+            {/* Footer */}
+            <Footer />
         </div>
 
     );
