@@ -9,7 +9,7 @@ export default function Contacts() {
         <div className="wow fadeInUp">
           <div className="card-pricing contacts-box">
             <div className="text-center wow fadeInUp">
-              <h2 className="title-section">Контакти:</h2>
+              <h2 className="title-section">Контакти</h2>
             </div>
             <br />
             <h5>

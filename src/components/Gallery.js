@@ -23,9 +23,13 @@ export default function Gallery() {
     return (
         <div className="page-section">
             <div className="container">
+
+                {/* Gallery text */}
+                <h2 className="card-pricing title-section wow zoomIn" style={{ maxWidth: "150px", padding: "10px 10px", marginBottom: "20px" }}>Галерия</h2>
+
                 <div className="row">
 
-                    {/*Filling Gallery With Images*/}
+                    {/* Filling Gallery With Images */}
                     {images.map((imageName, index) => (
                         <div id={imageName.default} className="col-lg-4" onClick={() => openLightboxOnSourceIndex(index)}>
                             <div className="card-service wow zoomIn">

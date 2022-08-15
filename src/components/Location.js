@@ -7,7 +7,7 @@ const Location = () => {
 
                     {/*Coordinates*/}
                     <div div className="text-center container wow">
-                        <h4 className="title-section">Координати:</h4>
+                        <h4 className="title-section">Координати</h4>
                         <div className="subhead">41.94455297502885, 24.1471828</div>
                     </div>
 
