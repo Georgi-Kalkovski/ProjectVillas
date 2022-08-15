@@ -35,14 +35,16 @@ export default function Gallery() {
                             </div>
                         </div>
                     ))}
+
                 </div>
-                
+
                 {/*Enlarge Lightbox*/}
                 <FsLightbox
                     toggler={lightboxController.toggler}
                     sources={imagesArray}
                     sourceIndex={lightboxController.sourceIndex}>
                 </FsLightbox>
+
             </div>
         </div>
     );

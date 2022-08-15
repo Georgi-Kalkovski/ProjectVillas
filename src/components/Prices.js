@@ -5,7 +5,7 @@ export default function Prices() {
         <div className="page-section">
             <div className="container">
                 <div className="text-center wow fadeInUp" >
-                    {/*<div className="subhead">Pricing Plan</div>*/}
+                    {/* <div className="subhead">Pricing Plan</div> */}
                     <h2 className="card-pricing title-section" style={{ maxWidth: "150px", padding: "10px 10px" }}>Цени</h2>
                     {/*<div className="divider mx-auto"></div>*/}
                 </div>
@@ -72,9 +72,9 @@ export default function Prices() {
                                 Къщите се дават цели, не се предлагат отделни стаи.
                                 <br />
                                 <br />
-                                <span className="text-color">Напускането</span> става до <span className="text-color">12,00 часа</span>. 
-                                <br/>
-                                <span className="text-color">Настаняването</span> е след <span className="text-color">14,00 часа</span>.
+                                Напускането става до 12,00 часа.
+                                <br />
+                                Настаняването е след 14,00 часа.
                                 <br />
                                 <br />
                                 Цени за специални периоди, като Нова година, Великден и други празници се различават от горепосочените.
