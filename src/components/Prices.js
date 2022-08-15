@@ -4,9 +4,12 @@ export default function Prices() {
     return (
         <div className="page-section">
             <div className="container">
-                <div className="text-center wow fadeInUp" >
+                <div className="text-center" >
                     {/* <div className="subhead">Pricing Plan</div> */}
-                    <h2 className="card-pricing title-section" style={{ maxWidth: "150px", padding: "10px 10px" }}>Цени</h2>
+
+                    {/* Prices text */}
+                    <h2 className="card-pricing title-section wow fadeInUp" style={{ maxWidth: "150px", padding: "10px 10px", marginBottom: "-20px" }}>Цени</h2>
+
                     {/*<div className="divider mx-auto"></div>*/}
                 </div>
                 <div className="row mt-3" style={{ justifyContent: "center" }}>

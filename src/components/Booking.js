@@ -2,10 +2,10 @@ export default function Booking() {
     return (
         <div className="page-section">
 
-            <div className="text-center container wow zoomIn">
+            {/* Reservation text */}
+            <h2 className="card-pricing title-section  wow fadeInUp" style={{ maxWidth: "250px", padding: "10px 10px", marginBottom: "20px" }}>Резервации</h2>
 
-            {/* Gallery text */}
-            <h2 className="card-pricing title-section" style={{ maxWidth: "150px", padding: "10px 10px", marginBottom: "20px" }}>Галерия</h2>
+            <div className="text-center container wow zoomIn">
 
                 {/*Google Calendar*/}
                 <iframe

@@ -1,13 +1,17 @@
 const Location = () => {
     return (
-        <div className="page-section"> {/*bg-light*/}
+        <div className="page-section">
 
-            <div className="wow zoomIn">
+            {/* Location text */}
+            <h2 className="card-pricing title-section wow fadeInUp" style={{ maxWidth: "300px", padding: "10px 10px", marginBottom: "20px" }}>Местоположение</h2>
+
+            <div className="wow fadeInUp">
                 <div className="card-pricing">
+
 
                     {/*Coordinates*/}
                     <div div className="text-center container wow">
-                        <h4 className="title-section">Координати</h4>
+                        {/* <h4 className="title-section">Координати</h4> */}
                         <div className="subhead">41.94455297502885, 24.1471828</div>
                     </div>
 

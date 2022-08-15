@@ -5,12 +5,16 @@ export default function Contacts() {
     <div className="page-section" id="about">
       <div className="container">
 
+        {/* Contacts text */}
+        <h2 className="card-pricing title-section wow fadeInUp" style={{ maxWidth: "200px", padding: "10px 10px", marginBottom: "20px" }}>Контакти</h2>
+
         {/*Main Page Text*/}
         <div className="wow fadeInUp">
+
           <div className="card-pricing contacts-box">
-            <div className="text-center wow fadeInUp">
-              <h2 className="title-section">Контакти</h2>
-            </div>
+            {/* <div className="text-center wow fadeInUp">
+              <h2 className="title-section">Контакти:</h2>
+            </div> */}
             <br />
             <h5>
               <p>
