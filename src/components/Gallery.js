@@ -27,7 +27,7 @@ export default function Gallery() {
                 {/* Gallery text */}
                 <h2 className="card-pricing title-section wow fadeInUp" style={{ maxWidth: "150px", padding: "10px 10px"}}>Галерия</h2>
 
-                <div className="row">
+                <div className="row gallery">
 
                     {/* Filling Gallery With Images */}
                     {images.map((imageName, index) => (
