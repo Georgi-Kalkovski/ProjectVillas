@@ -4,7 +4,7 @@
 }
 
 :root {
-  --bg-content: rgba(0, 0, 0, 0.8);
+  --bg-content: #000000ba;
 }
 
 body {
@@ -16,18 +16,19 @@ html {
 
 /* background image */
 .main-background-image {
+  background-image: url('./background.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
   min-height: 100vh;
   position: fixed;
   width: 100%;
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 /* calendar shadow */
 .navbar, .card-pricing, .card-service, iframe {
-  box-shadow: 0px 0px 7px 3px #6c757db8;
+  box-shadow: 0px 0px 7px 3px #343638b8;
 }
 
 /* bolded nav */
@@ -42,6 +43,11 @@ html {
   letter-spacing: 5px;
 }
 
+.page-section {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 
 
 /* BLACK THEME */
@@ -50,7 +56,7 @@ html {
 
 /*nav bar background*/
 .bg-white {
-  background-color: var(--bg-content) !important;
+  background-color: black !important;
 }
 
 /*nav bar "къща за гости" text*/

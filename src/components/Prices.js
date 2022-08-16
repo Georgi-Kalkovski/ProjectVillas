@@ -68,7 +68,7 @@ export default function Prices() {
                     </div>
 
                     {/*More Info Text*/}
-                    <div className="card-pricing wow fadeInUp">
+                    <div className="pricing-text card-pricing wow fadeInUp">
                         <br />
                         <h5 >
                             <p>

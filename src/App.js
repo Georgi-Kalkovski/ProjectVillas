@@ -29,9 +29,6 @@ const App = () => {
             {/* Background Image */}
             <div className='main-background-image'></div>
 
-            {/* Background Image Alpha (Opacity) */}
-            <div className='main-background-alpha'></div>
-
             {/* Back To Top Button */}
             <div className='back-to-top'></div>
 
