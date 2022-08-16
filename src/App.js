@@ -1,5 +1,5 @@
-import React from 'react';
-import { Routes, Route, Link } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { Routes, Route, Link, useNavigate, useLocation } from 'react-router-dom';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import Location from './components/Location';
@@ -9,62 +9,63 @@ import Booking from './components/Booking';
 import Contacts from './components/Contacts';
 import './App.css';
 
+//Background Image
+import Background from './background.png';
+
 const App = () => {
 
     // Nav Coloring Logic
-    var btns = document.getElementsByClassName('nav-item');
+    var header = document.getElementById("myUL");
+    var btns = document.getElementsByClassName("nav-item");
 
     for (var i = 0; i < btns.length; i++) {
-        btns[i].addEventListener('click', function () {
-            var current = document.getElementsByClassName('active');
+        btns[i].addEventListener("click", function () {
+            var current = document.getElementsByClassName("active");
             if (current.length > 0) {
-                current[0].className = current[0].className.replace(' active', '');
+                current[0].className = current[0].className.replace(" active", "");
             }
-            this.className += ' active';
+            this.className += " active";
         });
     }
 
     return (
         <div>
             {/* Background Image */}
-            <div className='main-background-image'></div>
-
-            {/* Background Image Alpha (Opacity) */}
-            <div className='main-background-alpha'></div>
+            <div className='main-background-image' style={{ backgroundImage: `url(${Background})` }}></div>
 
             {/* Back To Top Button */}
-            <div className='back-to-top'></div>
+            <div className="back-to-top"></div>
 
             {/* Nav Menu */}
-            <nav className='navbar navbar-expand-lg navbar-light bg-white sticky' data-offset='500'>
-                <div className='container'>
-                    <Link to='/' className='navbar-brand'>Къщи за гости <span className='text-primary'>•Нели•</span></Link>
-                    <button className='navbar-toggler' data-toggle='collapse' data-target='#navbarContent' aria-controls='navbarContent' aria-expanded='false' aria-label='Toggle navigation'>
-                        <span className='navbar-toggler-icon'></span>
+            <nav className="navbar navbar-expand-lg navbar-light bg-white sticky" data-offset="500">
+                <div className="container">
+                    <Link to="/" className="navbar-brand">Къщи за гости <span className="text-primary">•Нели•</span></Link>
+                    <button className="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
                     </button>
 
-                    <div className='navbar-collapse collapse' id='navbarContent'>
-                        <ul className='navbar-nav ml-auto' id='myUL'>
-                            <li className='nav-item active'>
-                                <Link className='nav-link' to='/'>Начало</Link>
+                    <div className="navbar-collapse collapse" id="navbarContent">
+                        <ul className="navbar-nav ml-auto" id="myUL">
+                            <li className="nav-item active">
+                                <Link className="nav-link" to="/">Начало</Link>
                             </li>
-                            <li className='nav-item'>
-                                <Link className='nav-link' to='/location'>Местоположение</Link>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/location">Местоположение</Link>
                             </li>
-                            <li className='nav-item'>
-                                <Link className='nav-link' to='/gallery'>Галерия</Link>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/gallery">Галерия</Link>
                             </li>
-                            <li className='nav-item'>
-                                <Link className='nav-link' to='/prices'>Цени</Link>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/prices">Цени</Link>
                             </li>
-                            <li className='nav-item'>
-                                <Link className='nav-link' to='/booking'>Резервации</Link>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/booking">Резервации</Link>
                             </li>
-                            <li className='nav-item'>
-                                <Link className='nav-link' to='/contacts'>Контакти</Link>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/contacts">Контакти</Link>
                             </li>
-                            {/*<li className='nav-item'>
-                                <a className='btn btn-primary ml-lg-2' href='#'>Free Analytics</a>
+                            {/*<li className="nav-item">
+                                <a className="btn btn-primary ml-lg-2" href="#">Free Analytics</a>
                             </li>*/}
                         </ul>
                     </div>

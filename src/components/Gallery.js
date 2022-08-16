@@ -23,32 +23,26 @@ export default function Gallery() {
     return (
         <div className="page-section">
             <div className="container">
+                <div className="row">
 
-                {/* Gallery text */}
-                <h2 className="card-pricing title-section wow fadeInUp" style={{ maxWidth: "150px", padding: "10px 10px"}}>Галерия</h2>
-
-                <div className="row gallery">
-
-                    {/* Filling Gallery With Images */}
+                    {/*Filling Gallery With Images*/}
                     {images.map((imageName, index) => (
                         <div id={imageName.default} className="col-lg-4" onClick={() => openLightboxOnSourceIndex(index)}>
-                            <div className="card-service wow fadeInUp">
+                            <div className="card-service wow zoomIn">
                                 <div className="header">
                                     <img src={imageName.default} className="img-fluid" alt="" />
                                 </div>
                             </div>
                         </div>
                     ))}
-
                 </div>
-
+                
                 {/*Enlarge Lightbox*/}
                 <FsLightbox
                     toggler={lightboxController.toggler}
                     sources={imagesArray}
                     sourceIndex={lightboxController.sourceIndex}>
                 </FsLightbox>
-
             </div>
         </div>
     );

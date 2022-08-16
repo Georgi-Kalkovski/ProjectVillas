@@ -3,18 +3,14 @@ import './Home.css';
 export default function Home() {
   return (
     <div className="page-section" >
-      <div className="container">
-
-        {/* Home text */}
-        <h2 className="card-pricing title-section wow fadeInUp" style={{ maxWidth: "250px", padding: "10px 10px", marginBottom: "20px" }}>За къщите</h2>
-
+      <div className="container ">
         {/*Main Page Text*/}
         <div className="wow fadeInUp">
-
           <div className="card-pricing">
-            {/* <div className="text-center wow fadeInUp">
+            <div className="text-center wow fadeInUp">
               <h2 className="title-section">За къщите</h2>
-            </div> */}
+            </div>
+            <br />
             <h5>
               <p style={{ textAlign: "left" }}>
                 Къщи за гости <span className="text-primary" style={{ fontSize: "x-large" }}> Нели</span> са построени в местност <span className="text-color">Цигов чарк</span>, с прекрасен  изглед към <span className="text-color">язовир Батак</span>.
