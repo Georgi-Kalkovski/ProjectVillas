@@ -21,20 +21,20 @@ export default function Gallery() {
     }
 
     return (
-        <div className="page-section">
-            <div className="container">
+        <div className='page-section'>
+            <div className='container'>
 
                 {/* Gallery text */}
-                <h2 className="card-pricing title-section wow fadeInUp" style={{ maxWidth: "150px", padding: "10px 10px"}}>Галерия</h2>
+                <h2 className='card-pricing title-section wow fadeInUp' style={{ maxWidth: '150px', padding: '10px 10px'}}>Галерия</h2>
 
-                <div className="row gallery">
+                <div className='row gallery'>
 
                     {/* Filling Gallery With Images */}
                     {images.map((imageName, index) => (
-                        <div id={imageName.default} className="col-lg-4" onClick={() => openLightboxOnSourceIndex(index)}>
-                            <div className="card-service wow fadeInUp">
-                                <div className="header">
-                                    <img src={imageName.default} className="img-fluid" alt="" />
+                        <div id={imageName.default} className='col-lg-4' onClick={() => openLightboxOnSourceIndex(index)}>
+                            <div className='card-service wow fadeInUp'>
+                                <div className='header'>
+                                    <img src={imageName.default} className='img-fluid' alt='' />
                                 </div>
                             </div>
                         </div>

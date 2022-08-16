@@ -2,24 +2,24 @@ import './Prices.css';
 
 export default function Prices() {
     return (
-        <div className="page-section">
-            <div className="container">
-                <div className="text-center" >
-                    {/* <div className="subhead">Pricing Plan</div> */}
+        <div className='page-section'>
+            <div className='container'>
+                <div className='text-center' >
+                    {/* <div className='subhead'>Pricing Plan</div> */}
 
                     {/* Prices text */}
-                    <h2 className="card-pricing title-section wow fadeInUp" style={{ maxWidth: "150px", padding: "10px 10px", marginBottom: "-20px" }}>Цени</h2>
+                    <h2 className='card-pricing title-section wow fadeInUp' style={{ maxWidth: '150px', padding: '10px 10px', marginBottom: '-20px' }}>Цени</h2>
 
-                    {/*<div className="divider mx-auto"></div>*/}
+                    {/*<div className='divider mx-auto'></div>*/}
                 </div>
-                <div className="row mt-3" style={{ justifyContent: "center" }}>
+                <div className='row mt-3' style={{ justifyContent: 'center' }}>
 
                     {/*One Night*/}
-                    <div className="col-lg-4 py-4 wow fadeInUp">
-                        <div className="card-pricing prices">
-                            <div className="header">
+                    <div className='col-lg-4 py-4 wow fadeInUp'>
+                        <div className='card-pricing prices'>
+                            <div className='header'>
                                 <h5 className='amount-of-nights'>За една нощувка</h5>
-                                <div className="price">
+                                <div className='price'>
                                     <h1>250 лв.</h1>
                                     <br />
                                     <br />
@@ -30,45 +30,45 @@ export default function Prices() {
                     </div>
 
                     {/*Two Nights*/}
-                    <div className="col-lg-4 py-4 wow fadeInUp">
-                        <div className="card-pricing prices">
-                            <div className="header">
+                    <div className='col-lg-4 py-4 wow fadeInUp'>
+                        <div className='card-pricing prices'>
+                            <div className='header'>
                                 <h5 className='amount-of-nights'>За две нощувки</h5>
-                                <div className="price">
+                                <div className='price'>
                                     <h1>200 лв.</h1>
-                                    <div className="pricing-type"><h4>на вечер</h4></div>
+                                    <div className='pricing-type'><h4>на вечер</h4></div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     {/*Three Nights*/}
-                    <div className="col-lg-4 py-4 wow fadeInUp">
-                        <div className="card-pricing prices">
-                            <div className="header">
+                    <div className='col-lg-4 py-4 wow fadeInUp'>
+                        <div className='card-pricing prices'>
+                            <div className='header'>
                                 <h5 className='amount-of-nights'>За три нощувки</h5>
-                                <div className="price">
+                                <div className='price'>
                                     <h1>150 лв.</h1>
-                                    <div className="pricing-type"><h4>на вечер</h4></div>
+                                    <div className='pricing-type'><h4>на вечер</h4></div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     {/*Four+ Nights*/}
-                    <div className="col-lg-4 py-4 wow fadeInUp">
-                        <div className="card-pricing prices">
-                            <div className="header">
+                    <div className='col-lg-4 py-4 wow fadeInUp'>
+                        <div className='card-pricing prices'>
+                            <div className='header'>
                                 <h5 className='amount-of-nights'>За 4 и повече нощувки</h5>
-                                <div className="price">
-                                    <div className="pricing-type"><h4>по договаряне</h4></div>
+                                <div className='price'>
+                                    <div className='pricing-type'><h4>по договаряне</h4></div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     {/*More Info Text*/}
-                    <div className="pricing-text card-pricing wow fadeInUp">
+                    <div className='pricing-text card-pricing wow fadeInUp'>
                         <br />
                         <h5 >
                             <p>

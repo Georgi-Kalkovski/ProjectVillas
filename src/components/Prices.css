@@ -9,3 +9,7 @@
 .pricing-text {
     margin-top: 25px;
 }
+
+.card-pricing .header .pricing-type {
+    color: #9c9aad;
+}

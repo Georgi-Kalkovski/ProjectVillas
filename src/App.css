@@ -18,8 +18,7 @@ html {
 .main-background-image {
   background-image: url('./background.png');
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
+  background-size: cover;
   min-height: 100vh;
   position: fixed;
   width: 100%;
@@ -155,4 +154,9 @@ html {
 .footer {
   position: relative;
   padding: 10px 0;
+}
+
+#copyright > a {
+  opacity:0;
+  z-index: -1;
 }
