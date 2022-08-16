@@ -4,7 +4,7 @@ import './Gallery.css';
 
 export default function Gallery() {
 
-    {/*Gallery Logic*/ }
+    // Gallery Logic
     const importAll = r => r.keys().map(r);
     const images = importAll(require.context('./gallery'));
     const imagesArray = images.map(x => x.default);
