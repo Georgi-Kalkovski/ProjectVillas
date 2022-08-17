@@ -7,7 +7,7 @@ const Footer = () => {
             <footer id='footer' className='text-center' >
 
                 <div id='copyright' className='grow'>
-                    <a href='https://github.com/Georgi-Kalkovski'>Made By Georgi Kalkovski</a>
+                    <a href='https://github.com/Georgi-Kalkovski'>Powered by Georgi Kalkovski</a>
                 </div>
 
             </footer>

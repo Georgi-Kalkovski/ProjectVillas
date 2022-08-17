@@ -1,11 +1,11 @@
 export default function Booking() {
     return (
-        <div className='page-section'>
+        <div className='page-section '>
 
             {/* Reservation text */}
             <h2 className='card-pricing title-section  wow fadeInUp' style={{ maxWidth: '250px', padding: '10px 10px', marginBottom: '20px' }}>Резервации</h2>
 
-            <div className='text-center container wow zoomIn'>
+            <div className='text-center container wow zoomIn calendar' >
 
                 {/*Google Calendar*/}
                 <iframe title="googleCalendar"
@@ -14,7 +14,8 @@ export default function Booking() {
                     width='800'
                     height='600'
                     frameborder='0'
-                    scrolling='no'>
+                    scrolling='no'
+                    >
                 </iframe>
             </div >
         </div >
