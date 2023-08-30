@@ -20,7 +20,7 @@ export default function Prices() {
                             <div className='header'>
                                 <h5 className='amount-of-nights'>За една нощувка</h5>
                                 <div className='price'>
-                                    <h1>250 лв.</h1>
+                                    <h1>300 лв.</h1>
                                     <br />
                                     <br />
                                     <br />
@@ -46,7 +46,7 @@ export default function Prices() {
                     <div className='col-lg-4 py-4 wow fadeInUp'>
                         <div className='card-pricing prices'>
                             <div className='header'>
-                                <h5 className='amount-of-nights'>За три нощувки</h5>
+                                <h5 className='amount-of-nights'>За три и повече нощувки</h5>
                                 <div className='price'>
                                     <h1>150 лв.</h1>
                                     <div className='pricing-type'><h4>на вечер</h4></div>
@@ -56,7 +56,7 @@ export default function Prices() {
                     </div>
 
                     {/*Four+ Nights*/}
-                    <div className='col-lg-4 py-4 wow fadeInUp'>
+                    {/* <div className='col-lg-4 py-4 wow fadeInUp'>
                         <div className='card-pricing prices'>
                             <div className='header'>
                                 <h5 className='amount-of-nights'>За 4 и повече нощувки</h5>
@@ -65,7 +65,7 @@ export default function Prices() {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                     {/*More Info Text*/}
                     <div className='pricing-text card-pricing wow fadeInUp'>
@@ -75,7 +75,7 @@ export default function Prices() {
                                 Къщите се дават цели, не се предлагат отделни стаи.
                                 <br />
                                 <br />
-                                Напускането става до 12,00 часа.
+                                Напускането става до 11,00 часа.
                                 <br />
                                 Настаняването е след 14,00 часа.
                                 <br />
