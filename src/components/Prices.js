@@ -35,7 +35,7 @@ export default function Prices() {
                             <div className='header'>
                                 <h5 className='amount-of-nights'>За две нощувки</h5>
                                 <div className='price'>
-                                    <h1>200 лв.</h1>
+                                    <h1>220 лв.</h1>
                                     <div className='pricing-type'><h4>на вечер</h4></div>
                                 </div>
                             </div>
@@ -48,7 +48,7 @@ export default function Prices() {
                             <div className='header'>
                                 <h5 className='amount-of-nights'>За три и повече нощувки</h5>
                                 <div className='price'>
-                                    <h1>150 лв.</h1>
+                                    <h1>170 лв.</h1>
                                     <div className='pricing-type'><h4>на вечер</h4></div>
                                 </div>
                             </div>
