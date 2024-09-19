@@ -6,7 +6,7 @@ const Location = () => {
             <h2 className='card-pricing title-section wow fadeInUp' style={{ maxWidth: '300px', padding: '10px 10px', marginBottom: '20px' }}>Местоположение</h2>
 
             <div className='wow fadeInUp'>
-                <div className='card-pricing'>
+                <div className='card-pricing' style={{margin:'auto 10px'}}>
 
 
                     {/*Coordinates*/}
